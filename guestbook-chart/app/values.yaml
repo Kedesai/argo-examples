@@ -1,5 +1,6 @@
 # Specify any global values here if needed
-configmap:
-  data:
-    CUSTOM_HEADER: 'This is on the DEV environment!'
-
+configMap:
+  name: guestbook-data
+  items:
+    - key: index.html
+      path: index.html
