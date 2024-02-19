@@ -1,2 +1,5 @@
 # Specify any global values here if needed
+configmap:
+  data:
+    CUSTOM_HEADER: 'This is on the DEV environment!'
 
